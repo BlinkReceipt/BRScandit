@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "BRScandit"
-  s.version      = "2.0.0"
+  s.version      = "2.0.1"
   s.summary      = "Latest version of Scandit"
 
   s.description  = <<-DESC
