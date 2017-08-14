@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "BRScandit"
-  s.version      = "1.0.0"
+  s.version      = "2.0.0"
   s.summary      = "Latest version of Scandit"
 
   s.description  = <<-DESC
@@ -53,12 +53,12 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "CoreText", "OpenGLES", "MessageUI", "CoreVideo", "CoreGraphics", "AudioToolbox", "AVFoundation", "CoreMedia", "QuartzCore", "SystemConfiguration", "MediaPlayer"
+  #s.frameworks = "CoreText", "OpenGLES", "MessageUI", "CoreVideo", "CoreGraphics", "AudioToolbox", "AVFoundation", "CoreMedia", "QuartzCore", "SystemConfiguration", "MediaPlayer"
 
-  s.vendored_frameworks = "ScanditBarcodeScanner.framework"
+  s.vendored_frameworks = "BRScandit.framework"
 
   # s.library   = "iconv"
-  s.libraries = "c++", "iconv", "z"
+  #s.libraries = "c++", "iconv", "z"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

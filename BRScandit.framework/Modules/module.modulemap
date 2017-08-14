@@ -1,0 +1,6 @@
+framework module BRScandit {
+  umbrella header "BRScandit.h"
+
+  export *
+  module * { export * }
+}
